@@ -9,4 +9,4 @@ https://raw.githubusercontent.com/cobaltdisco/Google-Chinese-Results-Blocklist/m
 
 自定义屏蔽内容农场 订阅   
 
-https://github.com/nanbowaner/user-config/blob/main/block-sites.txt  
+https://raw.githubusercontent.com/nanbowaner/user-config/main/block-sites.txt
