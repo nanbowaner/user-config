@@ -1,0 +1,11 @@
+*://*.jianshu.com/* 
+*://*.segmentfault.com/* 
+*://*.csdn.net/* 
+*://blog.51cto.com/*
+*://cloud.tencent.com/developer/article/* 
+*://bbs.huaweicloud.com/blogs/* 
+*://developer.aliyun.com/article/* 
+*://baike.baidu.com/* 
+*://juejin.cn/post/* 
+*://so.toutiao.com/*
+*://www.51cto.com/*
