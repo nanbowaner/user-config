@@ -15,6 +15,12 @@ https://raw.githubusercontent.com/nanbowaner/user-config/main/block-sites.txt
 
 https://raw.githubusercontents.com/infinet/lunar-calender/master/chinese_lunar_prev_year_next_year.ics    # 农历
 
-https://p24-calendars.icloud.com/holidays/cn_zh.ics    # 法定假日  
+https://p24-calendars.icloud.com/holidays/cn_zh.ics    # 法定假日 
 
+https://calendars.icloud.com/holidays/cn_zh.ics    # 苹果官方法定假日,同上
+
+
+参考：  
+
+https://github.com/lanceliao/china-holiday-calender  
 
