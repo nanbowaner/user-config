@@ -4,6 +4,8 @@
 
 # 屏蔽内容农场
 
+https://github.com/nanbowaner/user-config/blob/main/block_content_farm
+
 
 # 公共日历 
 
