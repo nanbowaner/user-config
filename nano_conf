@@ -1,0 +1,7 @@
+set nohelp           # 隐藏帮助
+set linenumbers      # 显示行号
+set tabsize 4        # 设置制表符宽度
+#  set smooth        # 平滑卷屏
+#  set nowrap        # 不要自动换行
+set mouse            # 允许鼠标
+set softwrap         # 允许换行
