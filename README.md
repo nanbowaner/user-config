@@ -10,4 +10,6 @@ https://github.com/nanbowaner/user-config/blob/main/block_content_farm
 
 https://github.com/nanbowaner/user-config/blob/main/calendars
 
+# nano 配置  
 
+https://github.com/nanbowaner/user-config/blob/main/nano_conf
