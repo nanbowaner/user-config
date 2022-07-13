@@ -16,5 +16,5 @@ https://github.com/nanbowaner/user-config/blob/main/nano_conf
 
 ## aria2 配置  
 
-...
+https://github.com/nanbowaner/user-config/blob/main/aria2.conf
 
