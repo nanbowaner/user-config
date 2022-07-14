@@ -16,5 +16,14 @@ https://github.com/nanbowaner/user-config/blob/main/nano_conf
 
 ## aria2 配置  
 
-https://github.com/nanbowaner/user-config/blob/main/aria2.conf
+https://github.com/nanbowaner/user-config/blob/main/aria2.conf  
+
+开机启动  
+
+https://gist.github.com/nanbowaner/e896df62bf8e5079200a44c8bbcda35e
+
+网页界面  
+
+http://aria2c.com/  
+
 
