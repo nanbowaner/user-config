@@ -53,17 +53,33 @@ extra-keys = [ \
 
 ## 备份与恢复  
 
-确保已经获取了存储访问的权限，如果没有获取的话，执行以下命令来重新获取访问权限：
+确保已经获取了存储访问的权限，如果没有获取的话，执行以下命令来重新获取访问权限： 
 
-termux-setup-storage
+termux-setup-storage   
 
 然后去 Termux 根目录下： 
 
-cd /data/data/com.termux/files
+cd /data/data/com.termux/files  
 
-备份配置文件为 termux-backup.tar.gz： 
+备份配置文件为 termux-backup.tar.gz：   
 
-tar -zcf /sdcard/termux-backup.tar.gz home usr
+tar -zcf /sdcard/termux-backup.tar.gz home usr  
+
+恢复  
+
+确保已经获取了存储访问的权限，如果没有获取的话，执行以下命令来重新获取访问权限：  
+
+termux-setup-storage  
+
+然后去 Termux 根目录下：  
+
+cd /data/data/com.termux/files   
+
+解压提取之前备份的内容，覆盖现存的文件并删除之前的备份文件：  
+
+tar -zxf /sdcard/termux-backup.tar.gz --recursive-unlink --preserve-permissions  
+
+操作完成重启 Termux 即可恢复数据。  
 
 
 
