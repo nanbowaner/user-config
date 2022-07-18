@@ -32,5 +32,5 @@ https://github.com/nanbowaner/user-config/blob/main/torrc
 
 ## termux 折腾  
 
-
+https://github.com/nanbowaner/user-config/blob/main/termux
 
