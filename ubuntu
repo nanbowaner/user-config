@@ -1,2 +1,11 @@
 ## 终端  
 
+sudo apt-get install zsh  
+
+sudo apt-get install zsh-autosuggestions zsh-syntax-highlighting zsh-theme-powerlevel9k  
+
+chsh -s /usr/bin/zsh  
+
+参考
+
+https://linux.cn/article-13030-1.html
