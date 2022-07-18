@@ -49,7 +49,21 @@ nano ~/.termux/termux.properties
 extra-keys = [ \
  ['ESC','|','/','`','UP','QUOTE','APOSTROPHE'], \
  ['TAB','CTRL','~','LEFT','DOWN','RIGHT','ENTER'] \
-]
+]  
+
+## 备份与恢复  
+
+确保已经获取了存储访问的权限，如果没有获取的话，执行以下命令来重新获取访问权限：
+
+termux-setup-storage
+
+然后去 Termux 根目录下： 
+
+cd /data/data/com.termux/files
+
+备份配置文件为 termux-backup.tar.gz： 
+
+tar -zcf /sdcard/termux-backup.tar.gz home usr
 
 
 
