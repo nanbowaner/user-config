@@ -41,6 +41,16 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 chsh -s zsh    
 
+## 定制常用按键  
+
+新建并编辑配置文件
+nano ~/.termux/termux.properties  
+
+extra-keys = [ \
+ ['ESC','|','/','`','UP','QUOTE','APOSTROPHE'], \
+ ['TAB','CTRL','~','LEFT','DOWN','RIGHT','ENTER'] \
+]
+
 
 
 
