@@ -82,6 +82,10 @@ tar -zxf /sdcard/termux-backup.tar.gz --recursive-unlink --preserve-permissions
 操作完成重启 Termux 即可恢复数据。  
 
 
+## aria2  
+
+## ssh
+
 
 
 
