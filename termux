@@ -1,12 +1,46 @@
-更换国内源  
+## 更换国内源  
 
-'sed -i 's@^\(deb.*stable main\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux/termux-packages-24 stable main@' $PREFIX/etc/apt/sources.list
+sed -i 's@^\(deb.*stable main\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux/termux-packages-24 stable main@' $PREFIX/etc/apt/sources.list
 
 sed -i 's@^\(deb.*games stable\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux/game-packages-24 games stable@' $PREFIX/etc/apt/sources.list.d/game.list
 
 sed -i 's@^\(deb.*science stable\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux/science-packages-24 science stable@' $PREFIX/etc/apt/sources.list.d/science.list
 
-pkg update'
+pkg update  
+
+## 安装基础工具  
+
+pkg update
+pkg install vim curl wget git tree -y  
+
+## 安装 zsh-autosuggestions  
+
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions  
+
+zshrc 添加 
+
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh    
+
+安装 zsh-syntax-highlighting   
+ 
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh/zsh-syntax-highlighting    
+
+zshrc 添加   
+
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh     
+
+安装 powerlevel10k 主题   
+
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k    
+
+zshrc 添加   
+
+source ~/powerlevel10k/powerlevel10k.zsh-theme    
+
+切换到 zsh    
+
+chsh -s zsh    
+
 
 
 
