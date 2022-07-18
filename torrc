@@ -1,0 +1,29 @@
+#下面是跨机共享代理，去掉前面#号即可开启
+#SocksPort 0.0.0.0:9050
+#下面是前置代理，去掉前面#号即可开启
+#HTTPSProxy 127.0.0.1:10809
+Socks5Proxy 127.0.0.1:9909
+#下面数字改为0，关闭自带网桥连接，开启前置代理
+UseBridges 0    
+DataDirectory "位置/scoop/apps/tor/current/Data/Data"
+GeoIPFile "位置/scoop/apps/tor/current/Data/Tor/geoip"
+GeoIPv6File "位置/scoop/apps/tor/current/Data/Tor/geoip6"
+
+#下面日志路径，打开后终端不会显示连接日志
+#Log notice file ./Data/tor.log 
+#StrictNodes 1
+AvoidDiskWrites 1
+#下面是排除邪恶国家节点，去掉前面#号即可开启
+ExcludeExitNodes {cn},{hk},{mo},{sg},{th},{pk},{by},{ru},{ir},{vn},{ph},{my},{cu}
+ExcludeNodes {cn},{hk},{mo},{sg},{th},{pk},{by},{ru},{ir},{vn},{ph},{my},{cu}
+
+#ClientTransportPlugin meek_lite,obfs2,obfs3,obfs4,scramblesuit exec #位置\scoop\apps\tor\current\PluggableTransports\obfs4proxy
+##ClientTransportPlugin obfs4 exec 位置\scoop\apps\tor\current\PluggableTransports\obfs4proxy managed
+#普通网桥格式
+#Bridge 66.42.73.78:40367 8975AAF1A5317E04600F30AD3ED43083820FF516
+#obfs4网桥按下面这样填写，注意：自己网桥请严格按下面格式填写，否则会报错！
+#Bridge obfs4 66.42.73.78:41563 8975AAF1A5317E04600F30AD3ED43083820FF516 cert=6LMNcXh6MIfApbZiMksnS4Kj+2sffZ5pybSqtcOO5YoHgfrMpkBJqvLxhuR2Ppau0L2seg iatmode=0
+#Bridge obfs4 98.149.15.16:42786 9EB94D29047DBAEFF56035353D4306B732C79F05 cert=rLYOqY0szSm5HndAVNCVN1vxuEhOmdQp1vwLfrw+cQePBQbfmSnlOnyJzUGlQMQVtxegPg iat-mode=0
+Bridge obfs4 38.229.33.140:57275 EC4F9DA66F520A094E5B534AA08DFC1AB5E95B64 cert=OJJtSTddonrjXMCWGX97lIagsGtGiFnUI6t/OGFbKtpvWiFEfS0sLBnhLmHUENLoW1soeg iat-mode=1
+#tor默认的重建链路的时间是30s，可以适当延长时间保证速度
+NewCircuitPeriod 900
