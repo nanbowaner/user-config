@@ -28,6 +28,9 @@ http://aria2c.com/
 
 ## torrc 配置  
 
-https://github.com/nanbowaner/user-config/blob/main/torrc
+https://github.com/nanbowaner/user-config/blob/main/torrc  
+
+## termux 折腾  
+
 
 
