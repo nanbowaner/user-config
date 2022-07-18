@@ -26,4 +26,8 @@ https://gist.github.com/nanbowaner/e896df62bf8e5079200a44c8bbcda35e
 
 http://aria2c.com/  
 
+## torrc 配置  
+
+https://github.com/nanbowaner/user-config/blob/main/torrc
+
 
