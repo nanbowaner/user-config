@@ -36,5 +36,7 @@ https://github.com/nanbowaner/user-config/blob/main/termux
 
 ## ubuntu 配置 
 
+https://github.com/nanbowaner/user-config/blob/main/ubuntu  
+
 
 
